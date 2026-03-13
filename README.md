@@ -1,1 +1,2 @@
-# password
+## Random Password Generator using Qubits and Hadamard gate
+The rand_gen.py file contains a function which takes a number as input and generates a password randomly generated using quantum mechanics. It utilises the Hadamard gate to get almost 50% probability of getting 0 or 1. Then the quantum circuit is run as many times as required according to the input number. The function creates a random bitstring which is then converted into acceptable ASCII characters which are returned by the function as a string.
